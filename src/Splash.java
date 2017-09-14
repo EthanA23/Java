@@ -1,12 +1,11 @@
 
 public class Splash {
 	
-	public static void main(String[] args) {
-		
-		splashscreen();
+	public Splash() {
+			
 	}
 
-	private static void splashscreen() {
+	public void splashScreen() {
 		System.out.println("__________.___  ________    ________________________  ________.___.\n" + 
 				"\\______   \\   |/  _____/   /   _____/\\_   _____/\\   \\/  /\\__  |   |\n" + 
 				" |    |  _/   /   \\  ___   \\_____  \\  |    __)_  \\     /  /   |   |\n" + 
@@ -16,4 +15,18 @@ public class Splash {
 				"																			");
 		
 	}
+	
+	public void splashScreen2() {
+		System.out.println("   _____  ___________________  __      __ \n" + 
+				"  /     \\ \\_   _____/\\_____  \\/  \\    /  \\\n" + 
+				" /  \\ /  \\ |    __)_  /   |   \\   \\/\\/   /\n" + 
+				"/    Y    \\|        \\/    |    \\        / \n" + 
+				"\\____|__  /_______  /\\_______  /\\__/\\  /  \n" + 
+				"        \\/        \\/         \\/      \\/   \n" + 
+				"                                          \n" + 
+				"                                          \n" + 
+				"                                          ");
+	}
 }
+
+
