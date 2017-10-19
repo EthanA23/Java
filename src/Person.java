@@ -8,20 +8,17 @@ public class Person {
 
 	//declare attributes or object
 	private String name;
-	private int age;
 	private String gender;
 	
 	//zero argument constructor
 	public Person() {
-		this.name = "Ethan";
-		this.age = 1;
-		this.gender = "male";
+		this.name = "";
+		this.gender = "";
 	}
 	
 	//loaded constructor
-	public Person(String name, int age, String gender) {
+	public Person(String name, String gender) {
 		this.name = name;
-		this.age = age;
 		this.gender = gender;
 	}
 	
@@ -32,15 +29,6 @@ public class Person {
 	
 	public void setName(String name) {
 		this.name = name;
-	}
-	
-	public int getAge() {
-		return this.age;
-	}
-	
-	public void setAge(int age) {
-		this.age = age;
-		
 	}
 	
 	public String getGender() {

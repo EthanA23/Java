@@ -3,6 +3,7 @@ Author: Ethan Aghai
 Date: 9/14/17 
 Splash for TextAdventure
 */
+
 public class Splash {
 	
 	public Splash() {
