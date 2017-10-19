@@ -47,6 +47,10 @@ public class Runner{
 		System.out.println("Gender of Private: " + p1.getGender());
 		
 		System.out.println("Your info: " + p1);
+		
+		p1.setStatus(Status.PrivateSecondClass);
+		
+		System.out.println("You completed a mission! Congrats! You are now: " + p1.getStatus());
 	
 	
 	
