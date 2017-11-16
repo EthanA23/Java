@@ -1,4 +1,4 @@
 
-public class Mission {
+public interface Mission {
 
 }
