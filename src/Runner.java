@@ -22,6 +22,25 @@ public class Runner{
 		Scanner scanner = new Scanner(System.in);
 		
 		//prompt the user with a question to provide input
+		System.out.println("It's March 20, 2022 and Kim Jung Un has just lainched a nuclear missle headed for the United States.");
+		
+		System.out.println("Our President has just launched Operation Frontline and you are a new recruit apart of an elite group of military men chosen to go into battle.");
+
+		System.out.println("However, you need to earn your way up through a series of missions to obtin the highest status as General of the Army!");
+		
+		System.out.println("You will go through weeks of rigerous training so you can have the knowledge to fight in the frontlines against the North Korean army ultimatley roving to our country that you are worthy of such a high status.");
+		
+		System.out.println("Once you are chosen as Genral of the Army, it will be your job to protect the United States of America and win the war.");
+		
+		System.out.println("But, if you lose the war, it's GAME OVER!");
+		
+		System.out.println("ARE");
+		
+		System.out.println("YOU");
+		
+		System.out.println("READY!");
+		
+		
 		System.out.println("Welcome!");
 		
 		System.out.println("What's your name?");

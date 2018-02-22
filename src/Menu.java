@@ -6,7 +6,11 @@ Menu for TextAdventure
 
 public class Menu {
 	
-	public Menu() {
+	//declare attributes or object
+		private String answer;
 		
-	}
+		//zero argument constructor
+		public Menu() {
+			this.answer = "";
+			
 }
