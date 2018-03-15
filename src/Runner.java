@@ -40,7 +40,6 @@ public class Runner{
 		
 		System.out.println("READY!");
 		
-		
 		System.out.println("Welcome!");
 		
 		System.out.println("What's your name?");
@@ -51,7 +50,28 @@ public class Runner{
 		
 		String gender = scanner.next();
 		
-		System.out.println("Hi " + name + ", you have started as the lowest class, Private,"
+		System.out.println("Create a username.");
+		
+		System.out.println("Your username must be at least 4 characters long.");
+		
+		String userName = "";
+		
+		while(true){
+		userName = scanner.next();
+		
+		if(userName.length() > 3){
+			System.out.println("Your username passes validation. " + "Hi, " + userName);
+			break;
+			
+		}
+			//userName is not at least 4 characters
+			//tell the user that there is an error with the given userName
+		else{ 
+			System.out.println("Username must be at least 4 characters long.");
+		}
+	}
+		
+		System.out.println("Hi " + userName + ", you have started as the lowest class, Private,"
 				+ " and will go through a series of missions to be able to move up in rank" + "!");
 			
 		
@@ -71,8 +91,5 @@ public class Runner{
 		
 		System.out.println("You completed a mission! Congrats! You are now: " + p1.getStatus());
 	
-	
-	
-	}
-
+		}
 }
