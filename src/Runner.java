@@ -6,6 +6,8 @@ Date: 9/28/17
 Added Soldier
 Date: 10/19/17
 Menu for TextAdventure
+Date: 5/3/18
+Mission for TextAdventure
 */
 
 import java.util.ArrayList;
@@ -86,6 +88,14 @@ public class Runner{
 		System.out.println("Gender of Private: " + p1.getGender());
 		
 		System.out.println("Your info: " + p1);
+		
+		Mission mission1 = new Mission(1,4);
+		
+		mission1.setObjectives("Eliminate all of the enemies!");
+		
+		int rand;
+		
+		rand = (int)(Math.random()*100);
 		
 		p1.setStatus(Status.PrivateSecondClass);
 		
