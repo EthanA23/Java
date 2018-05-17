@@ -93,13 +93,30 @@ public class Runner{
 		
 		mission1.setObjectives("Eliminate all of the enemies!");
 		
-		int rand;
+		System.out.println("Mission 1");
+		System.out.println("Objective: The enemy has launched an attack on the United States. "
+				+ "Eliminate all who stand in your way of protecting the country!");
 		
-		rand = (int)(Math.random()*100);
+		int NumberOfEnemies;
+		String health;
 		
-		p1.setStatus(Status.PrivateSecondClass);
+		NumberOfEnemies = (int)(Math.random()*100);
 		
-		System.out.println("You completed a mission! Congrats! You are now: " + p1.getStatus());
-	
+		if (NumberOfEnemies <7) {
+			health = "100";
+		} else {
+			health = "0";
 		}
+		
+		if (NumberOfEnemies <80) {
+			System.out.println("You completed the mission! Congrats! You are now: " + p1.setStatus());
+		} else {
+			System.out.println("You DIED!! :(");
+			
+		}
+		if (NumberOfEnemies <80) {
+			Status("Private Second Class");
+		}
+	}
+	
 }
